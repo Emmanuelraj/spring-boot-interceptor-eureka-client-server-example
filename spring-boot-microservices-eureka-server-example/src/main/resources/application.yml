@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-boot-microservices-eureka-server-example
+
+server:
+  port: 8761
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
